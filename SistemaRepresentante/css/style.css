@@ -1,0 +1,11 @@
+.modal{
+    width: 30px;
+  }
+
+.modal-content{
+    width: 30px;
+  }
+
+.list-group-item:hover{
+    background-color: rgba(59, 57, 57, 0.164) !important;
+  }
