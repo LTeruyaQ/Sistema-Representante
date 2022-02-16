@@ -3,19 +3,75 @@
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
-    height: 100vh;
 }
 
 header{
     background-image: url(../image/HomeBackGround.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 20vh;
     width: 100%;
+    z-index: 0;
 }
 
-nav{
-    height: 10vh;
-    position: sticky;
+
+nav .navbar-toggler{
+    height: 6vh;
+    position: fixed;
     z-index: 1;
+    top: 0;
+    margin: 0.5cm;
+    display: flex;
+}
+
+nav #offcanvasNavbar{
+
+    justify-content: center;
+    height: 100vh;
+}
+
+nav .offcanvas-body{
+    max-height: 90vh;
+}
+
+/* nav .offcanvas-body ul, li, a{
+    height: 4vh;
+    max-height: 10vh;
+} */
+
+nav .offcanvas-header{
+    max-height: 10vh;
+}
+
+#dadosGerais{
+    width: 80%;
+    margin: 1rem 10%;
+    padding: 3rem 8rem;
+    border-radius: 15px;
+    display: inline-flex;
+    justify-content: space-around;
+    background-color: rgb(245, 245, 245);
+}
+
+#dadosGerais article{
+    border: solid 5px black;
+    border-radius: 20px;
+    height: 6rem;
+    width: 8rem;
+    padding: 0.05rem;
+    justify-content: space-between;
+
+    text-align: center;
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+#dadosGraficos{
+    height: 20rem;
+    width: 80%;
+    margin: 1rem 10%;
+    padding: 3rem 8rem;
+    border-radius: 15px;
+    border: solid 5px black;
+    background-color: rgb(245, 245, 245);
 }
