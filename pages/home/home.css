@@ -5,42 +5,9 @@
     scroll-behavior: smooth;
 }
 
-header{
-    background-image: url(../../components/img/HomeBackGround.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 20vh;
+object{
     width: 100%;
-    z-index: 0;
-}
-
-
-nav .navbar-toggler{
-    height: 6vh;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    margin: 0.5cm;
-    display: flex;
-}
-
-nav #offcanvasNavbar{
-
-    justify-content: center;
-    height: 100vh;
-}
-
-nav .offcanvas-body{
-    max-height: 90vh;
-}
-
-/* nav .offcanvas-body ul, li, a{
-    height: 4vh;
-    max-height: 10vh;
-} */
-
-nav .offcanvas-header{
-    max-height: 10vh;
+    height: 8rem;
 }
 
 #dadosGerais{
@@ -86,4 +53,10 @@ nav .offcanvas-header{
 ::-webkit-scrollbar-thumb {
     background: rgb(243, 127, 81);
     border-radius: 5px;
+}
+
+/*Imagem*/
+
+.icon{
+    height: 30px;
 }

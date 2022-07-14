@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(../../components/img/HomeBackGround.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    z-index: 0;
+}
+
+nav .navbar-toggler{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    margin: 0.5cm;
+    display: flex;
+}
+
+nav #offcanvasNavbar{
+    justify-content: center;
+    height: 100vh;
+}
+
+nav .offcanvas-body{
+    max-height: 90vh;
+}
+
+/* nav .offcanvas-body ul, li, a{
+    height: 4vh;
+    max-height: 10vh;
+} */
+
+nav .offcanvas-header{
+    max-height: 10vh;
+}
