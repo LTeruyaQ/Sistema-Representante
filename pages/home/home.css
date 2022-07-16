@@ -5,11 +5,6 @@
     scroll-behavior: smooth;
 }
 
-object{
-    width: 100%;
-    height: 8rem;
-}
-
 #dadosGerais{
     width: 80%;
     margin: 1rem 10%;
